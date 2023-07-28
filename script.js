@@ -6,6 +6,7 @@ function rand(min, max) {
 
 // 1. Palyginti du skaičius a ir b. Išvesti į konsolę, kuris didesnis arba jie lygūs. (4 taškai)
 
+console.log(`Pirma užduotis`);
 const a = 9;
 const b = 10;
 
@@ -19,11 +20,19 @@ if (a < b) {
 
 // 2. Naudojant for ciklą, išvesti į konsolę skaičius nuo 1 iki 10. (5 taškai)
 
+console.log(`Antra užduotis`);
+
 for (let input = 1; input <= 10; input++) {
   console.log(input);
 }
 
 // 3. Naudojant for ciklą, išvesti į konsolę skaičius nuo 0, 2, 4, 6, 8, 10. (5 taškai)
+
+console.log(`Trečia užduotis`);
+
+for (let input = 0; input <= 10; input++) {
+  if (input % 2 === 0) console.log(input);
+}
 
 // 4. Naudojant for ciklą, sugeneruoti penkis atsitiktinius skaičius nuo 1 iki 10. Išvesti juos konsolėje. (5 taškai)
 

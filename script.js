@@ -22,11 +22,7 @@ if (a < b) {
 
 console.log(`Antra užduotis`);
 
-let numberLine = "";
-for (let i = 1; i <= 10; i++) {
-  numberLine += i + " ";
-}
-console.log(numberLine);
+for (let i = 1; i <= 10; i++) console.log(i);
 
 // 3. Naudojant for ciklą, išvesti į konsolę skaičius nuo 0, 2, 4, 6, 8, 10. (5 taškai)
 
@@ -49,16 +45,14 @@ for (let i = 0; i <= 5; i++) {
 
 console.log(`Penkta užduotis`);
 
-numbersRow = "";
+let i = 0;
+let number5 = "";
 while (true) {
-  let number = rand(1, 10);
-  numbersRow += number + " ";
-
-  if (number === 5) {
-    break;
-  }
+  number5 = rand(1, 10);
+  console.log(number5);
+  if (number5 === 5) break;
+  i++;
 }
-console.log(numbersRow);
 
 // 6. Sukurti masyvą, kurio ilgis būtų nuo 20 iki 30, o reikšmės būtų skaičiai nuo 10 iki 30. Surasti didžiausią masyvo reikšmę, NENAUDOJANT sort() bei Math.max() funkcijų. (7 taškai)
 

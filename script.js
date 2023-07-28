@@ -28,8 +28,10 @@ for (let i = 1; i <= 10; i++) console.log(i);
 
 console.log(`Trečia užduotis`);
 
-for (let input = 0; input <= 10; input++) {
-  if (input % 2 === 0) console.log(input);
+for (let i = 0; i <= 10; i++) {
+  if (i % 2 === 0) {
+    console.log(i);
+  }
 }
 
 // 4. Naudojant for ciklą, sugeneruoti penkis atsitiktinius skaičius nuo 1 iki 10. Išvesti juos konsolėje. (5 taškai)
